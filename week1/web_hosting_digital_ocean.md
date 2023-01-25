@@ -8,7 +8,7 @@ Digital Ocean offers a suite of different services, but for now we are only inte
 
 ***Note**: We are basically renting a virtual server from Digital Ocean, which generally costs money. The lowest-tier server we can rent costs $5 per month, with the first 2 months free. So **you will need a credit card to sign up** for Digital Ocean, and you will get charged a total of $10 by the end of this class (for April and May.)*
 
-*If you don’t feel comfortable doing this for any reason, send me an email (cm5403@nyu.edu) and I’m happy to discuss alternatives.*
+*If you don’t feel comfortable doing this for any reason, send me an email (sam.heckle@nyu.edu) and I’m happy to discuss alternatives.*
 
 ## 💧 Create a Digital Ocean droplet 💧
 
