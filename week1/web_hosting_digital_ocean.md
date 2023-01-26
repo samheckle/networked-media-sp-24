@@ -14,25 +14,25 @@ Digital Ocean offers a suite of different services, but for now we are only inte
 
 **Step 1:**  Navigate to [https://digitalocean.com](https://digitalocean.com) 
 
-![do-step-1.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/83e8c72e-f09f-45ec-9686-834da743f7ef/do-step-1.jpg)
+![do-step-1.jpg](https://drive.google.com/uc?id=125BhOkTimMt85LVacxD1Hc5pwgli9Owf)
 
 **Step 2:** Sign up using your preferred method
 
 **Step 3:** Add a credit card to confirm your account. Unfortunately, this step is mandatory. On the plus side, you get $100 in credits, valid for 60 days, after which you will start getting charged. You can also always create a new account in 2 months and get some more time for free 🙂
 
-![do-step-2.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b099d07e-4382-48d1-8e6b-4e1aec4ca3ed/do-step-2.jpg)
+![do-step-2.jpg](https://drive.google.com/uc?id=12A3Od3gjAnF67EI9pzizxoa6yFXRNf57)
 
 **Step 4:** Once your account is confirmed, you should see the following home page. You will also receive an email notifying you of the free credits you’ve received.
 
-![do-step-4.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f8536275-04f1-4aaa-a433-2a760420b989/do-step-4.jpg)
+![do-step-4.jpg](https://drive.google.com/uc?id=12Cr5RLBpu1odyyosFybyeM3HFkwrSsHM)
 
-![do-step5-credit-email.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/72b7957d-f685-465f-a80b-22ef8767bf96/do-step5-credit-email.jpg)
+![do-step5-credit-email.jpg](https://drive.google.com/uc?id=12DbpUj3rkhO7Kd8ugRBLagTrUvcDmbQP)
 
 **Step 5:** Navigate to [https://cloud.digitalocean.com/](https://cloud.digitalocean.com/); this is your Digital Ocean control panel, and where we’ll create our droplet from. On the left-hand side menu, click on `Droplets`, and then hit the `Create Droplet` button.
 
-![do-step-6-dashboard.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/55261dca-afed-4154-81d2-ea2f16b9323d/do-step-6-dashboard.jpg)
+![do-step-6-dashboard.jpg](https://drive.google.com/uc?id=12Kiv5hJPoriPuYxNSTuVlnplMDq)
 
-![do-step-7-droplet.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3342133e-bfdb-4e83-8038-1b87333a30db/do-step-7-droplet.jpg)
+![do-step-7-droplet.jpg](https://drive.google.com/uc?id=12N5gHiw_-p9jMLNw0maf457b6zaJzFUk)
 
 **Step 6:** Configure your droplet. The image below shows my full configuration, but the only things you’ll need to change from the defaults are:
 
@@ -43,11 +43,11 @@ Digital Ocean offers a suite of different services, but for now we are only inte
 - You can give your droplet a name, at the bottom under `Choose a hostname`. I named mine `cezar-networked-media`.
 - Everything else is fine with the default options.
 
-![do-step-8-create-droplet-settings.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/04177751-d83a-488e-95f0-119fbf1c197e/do-step-8-create-droplet-settings.png)
+![do-step-8-create-droplet-settings.png](https://drive.google.com/uc?id=12O2d-FcnnHNDGn0kq8XK9zJCee1zEI4S)
 
 **Step 7:** Hit `Create Droplet` and, after a few seconds, the initialization should be complete. Notice the IP address written to the right of your droplet name, and save it somewhere (`137.184.151.138` in the image below, yours will be different). That’s where your website(s) will live.
 
-![do-step-10-created.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ccc94de3-49c6-4f87-bd45-31b9a8093e61/do-step-10-created.png)
+![do-step-10-created.png](https://drive.google.com/uc?id=12OS5csJ08piPhumHGaHmCBIs5j21Ji1i)
 
 ## ⚡ Connecting to your droplet ⚡
 
