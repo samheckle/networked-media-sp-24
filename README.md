@@ -4,17 +4,17 @@ NYU IMA Spring 2023
 
 12:20 PM - 1:50 PM Tu Th
 
-**instructor**
-
+**instructor**  
 sam heckle (they/she)  
 [sam.heckle@nyu.edu](mailto:sam.heckle@nyu.edu)
 
 [office hours](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUZUZ0xFTjEyYmVIfGRlZmF1bHR8Yzg5N2EzOGQ2MGVmNWJiODkwZTliNTM1NmIyMzQ5NTQ)
 
-**ga**
-
+**ga**  
 vesper guo  
 [yg2556@nyu.edu](mailto:yg2556@nyu.edu)
+[office hours](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UVA0MjFzd3czSUhwfGRlZmF1bHR8ZDYxZmFjOTQ4OWJiNWIwMGRjZmJhOTBjOGJjODIyMjM)
+
 
 
 ***
