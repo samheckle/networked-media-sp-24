@@ -12,7 +12,7 @@ sam heckle (they/she)
 
 **ga**  
 vesper guo  
-[yg2556@nyu.edu](mailto:yg2556@nyu.edu)
+[yg2556@nyu.edu](mailto:yg2556@nyu.edu)  
 [office hours](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UVA0MjFzd3czSUhwfGRlZmF1bHR8ZDYxZmFjOTQ4OWJiNWIwMGRjZmJhOTBjOGJjODIyMjM)
 
 
