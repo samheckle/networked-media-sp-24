@@ -247,20 +247,21 @@ For the first few weeks, we won’t be making any changes to the server itself, 
 
 Once we start making changes to the server itself, we’ll learn some more about `pm2` and best development practices & workflows.
 
-.
+You might also need to check the status of your server:
 
-.
+```bash
+pm2 ls
+```
 
-.
+You can stop your server if there are any issues :)
 
-That
+```bash
+pm2 stop all
+pm2 restart server
+```
 
-was
+You can also kill the server if for some reason stopping and restarting doesn't work
 
-a
-
-lot
-
-but hang in there, you’ll do these steps over and over again over the next few weeks to the point where they’ll become second nature.
-
-❤️
+```bash
+pm2 kill
+```

@@ -31,10 +31,10 @@ window.onload = () => {
   // setTimeout takes two parameters:
   // 1. function that executes (here is is an anonymous function using () => {} ) -- anon functions are unnamed
   // 2. number of ms
-  setTimeout(() => {
-    // clearInterval which takes one parameter and that is the ID of the interval that was used
-    clearInterval(intervalID);
-  }, 5000);
+//   setTimeout(() => {
+//     // clearInterval which takes one parameter and that is the ID of the interval that was used
+//     clearInterval(intervalID);
+//   }, 5000);
 };
 
 // helper functions
