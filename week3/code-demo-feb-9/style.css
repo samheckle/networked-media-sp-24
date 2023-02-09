@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+.content-container {
+  width: 100vw;
+  height: 100vh;
+  font-family: monospace;
+  text-align: center;
+  padding-top: 33%;
+  font-size: 24pt;
+  /* https://www.w3schools.com/css/css3_transitions.asp */
+  /* https://easings.net/ */
+  transition: background-color 1s ease-in-out, color 1s ease-in-out;
+}
+
+/* .content-container.day .text-content{
+    color: black;
+}
+
+.content-container.night .text-content{
+    color: white;
+} */
+
+.button-class {
+  /* https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/ */
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background-color: lightgreen;
+  padding: 3px;
+  border: black dashed 2px;
+  cursor: pointer;
+  transition: opacity .25s linear;
+}
+
+.button-class:hover{
+    opacity: .5;
+}
+
+.night {
+    background-color: black;
+    color: white;
+}
+
+.day {
+    background-color: white;
+    color: black;
+}
