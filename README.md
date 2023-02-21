@@ -37,3 +37,10 @@ vesper guo
 # MISC RESOURCES
 * https://wizardzines.com/
 * https://itp.nyu.edu/networks/
+* https://repth.neocities.org/theme
+
+*ASCII*
+* https://textart.sh/
+* https://www.asciiart.eu/computers/game-consoles
+
+
