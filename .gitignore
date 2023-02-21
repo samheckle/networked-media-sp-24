@@ -1,3 +1,5 @@
 .DS_Store
 week3/code-demo-feb-8-part-2
 week3/test
+/test
+node_modules
