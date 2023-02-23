@@ -43,11 +43,11 @@ Once you’ve installed `node` on your laptop, create a new folder for this tuto
     })
     
     app.listen(8000, function() {
-        console.log("App listening on port 5000")
+        console.log("App listening on port 8000")
     })
     ```
     
-3. Running the web server `node server.js` via terminal, and open the browser at `localhost:5000`
+3. Running the web server `node server.js` via terminal, and open the browser at `localhost:8000`
     
     ```bash
     node server.js
@@ -58,7 +58,7 @@ Once you’ve installed `node` on your laptop, create a new folder for this tuto
         A port number is a way to identify a specific process to which an internet or other network message is to be forwarded when it arrives at a server. All network-connected devices come equipped with standardized ports that have an assigned number. These numbers are reserved for certain protocols and their associated function. Hypertext Transfer Protocol (HTTP) messages, for example, always go to [port 80](https://www.ssl2buy.com/wiki/port-80-http-vs-port-443-https) -- one of the most commonly used ports. In the example, we are using port 8000.
         
     
-    Open a web browser and navigate to `http://your.ip.address.here:5000/test`. You should see a simple page saying `Test: Server is working`, while your terminal shows `App listening on port 8000`.
+    Open a web browser and navigate to `http://your.ip.address.here:8000/test`. You should see a simple page saying `Test: Server is working`, while your terminal shows `App listening on port 8000`.
     
 
 ## Use `nodemon` watcher for development
@@ -110,8 +110,8 @@ app.get('/test', function(request, response) {
     response.send("Test: Server is working")
 })
 
-app.listen(5000, function() {
-    console.log("App listening on port 5000")
+app.listen(8000, function() {
+    console.log("App listening on port 8000")
 })
 ```
 
@@ -161,7 +161,7 @@ app.get('/', function(request, response) {
 })
 
 app.listen(8000, function() {
-    console.log("App listening on port 5000")
+    console.log("App listening on port 8000")
 })
 ```
 
@@ -196,8 +196,8 @@ app.get('/randomfile', function(request, response) {
     **response.sendFile(fileToSend, { root: "./public" })**
 })
 
-app.listen(5000, function() {
-    console.log("App listening on port 5000")
+app.listen(8000, function() {
+    console.log("App listening on port 8000")
 })
 ```
 
@@ -275,7 +275,7 @@ app.get('/messages', function(request, response) {
 
 }) 
 
-app.listen(5000, function() {
-    console.log("App listening on port 5000")
+app.listen(8000, function() {
+    console.log("App listening on port 8000")
 })
 ```
