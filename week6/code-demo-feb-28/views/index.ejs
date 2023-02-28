@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>🫡</title>
+    </head>
+    <body>
+        <div class="app-container">
+            <div class="input-container">
+                <form method="POST" action="/upload">
+                    <input type="text" name="text" placeholder="say something..." />
+                    <input type="file" name="theimage" />
+                    <input type="submit" name="submitbutton" value="Submit" />
+                </form>
+            </div>
+            <div class="messages-container">
+                <% messages.forEach( (message) => { %>
+                    <h1><%= message.text %></h1>
+                 <% }) %>
+            </div>
+        </div>
+    </body>
+</html>
