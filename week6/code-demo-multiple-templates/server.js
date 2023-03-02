@@ -17,6 +17,12 @@ app.get('/', (req, res) => {
     res.render("index.ejs", { messages: data})
 })
 
+app.get('/form/to/fake/twitter', (req, res) => {
+
+    // using the template to pass in the data array as the messages property
+    res.render("form.ejs", )
+})
+
 // array in which we are storing information on the server
 // particular to this example, this holds all of the messages are sent on the server
 let data = []
