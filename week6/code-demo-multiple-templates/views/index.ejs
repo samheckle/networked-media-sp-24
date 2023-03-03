@@ -5,11 +5,21 @@
   </head>
   <body>
     <div class="app-container">
+      <!-- how to link pages using the routes -->
         <a href="/form/to/fake/twitter">link to form</a>
         <a href="/test.html">testing code ty</a>
       <div class="messages-container">
         <% messages.forEach( (message) => { %>
         <div class="message-item">
+
+          <!-- a new form to handle deleting posts -->
+          <form method="GET" action="/delete">
+            <!-- this creates the button that is clicked when post is deleted -->
+            <input type="submit" value="x">
+            <!-- this passes in the value of which post to be deleted with the post id -->
+            <!-- type="hidden" because we are only passing data from the server and not taking user input -->
+            <input type="hidden" name="postId" value="<%= message.id %>"/> 
+          </form>
           <div class="date"><%= message.date %></div>
           <p class="message"><%= message.text %></p>
           <% if(message.imgSrc){ %>
