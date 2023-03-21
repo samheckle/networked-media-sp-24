@@ -67,7 +67,12 @@ app.get('/delete', (req, res) => {
     // splice function takes in 2 parameters:
     // the index at which the item should be removed
     // how many items you want to remove (we only want to remove one post at a time so we leave this at 1)
-    data.splice(req.query.postId, 1)
+    // data.splice(req.query.postId, 1)
+    data.forEach( (message) => {
+        if(message.id == req.query.postId){
+            data.splice(data.indexOf(message), 1)
+        }
+    })
 
     // making sure the page refreshes after post is deleted
     res.redirect('/')

@@ -1,0 +1,70 @@
+body{
+    width: 100%;
+    height: 100%;
+    overflow: clip;
+    background-color: darkslategray;
+
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+
+    margin: 0;
+    padding: 8px;
+    position: relative;
+}
+
+h1{
+    font-size: 48pt;
+    margin: 0;
+}
+
+h3{
+    margin: 5px 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 0 3px;
+}
+
+a .yellow{
+    color: #ECD444;
+}
+
+a .powderblue{
+    color: #93BEDF;
+}
+
+a .purple{
+    color: #8377D1;
+}
+
+.line{
+    background-color: white;
+    margin: 2px 4px;
+    width: calc(100% - (8px * 2 + 4px * 2));
+    height: 2px;
+}
+
+.footer{
+    position: absolute;
+    height: 200px;
+    bottom: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-left: 10px;
+}
+
+.stats, .forecast{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-data{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
