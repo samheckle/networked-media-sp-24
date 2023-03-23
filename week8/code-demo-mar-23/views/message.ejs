@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="post">
+            <span class="date"><%=message.date%></span>
+            <p class="message-text"><%=message.text%></p>
+            <% if(message.image){  %>
+                <img class="message-image" src=<%=message.image%>>
+            <%}%>
+        </div>
+    </body>
+</html>
