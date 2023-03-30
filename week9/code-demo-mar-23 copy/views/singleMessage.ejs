@@ -1,0 +1,15 @@
+<div class="post">
+    <a href="/message/<%=message._id%>">
+        <span class="date"><%=message.date%></span>
+        <p class="message-text"><%=message.text%></p>
+        <% if(message.image){  %>
+            <img class="message-image" src=<%=message.image%>>
+        <%}%>
+        </a>
+    <!-- <form method="POST" action="/remove/<%=message._id%>"> -->
+    <form method="POST" action="/remove">
+        <label for="message-<%=message._id%>" class="remove-label">+</label>
+        <input id="message-<%=message._id%>" type="submit" name="remove-btn" value="" class="remove-submit-btn">
+        <input type="hidden" name="messageId" value="<%=message._id%>">
+    </form>
+</div>

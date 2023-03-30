@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>😈</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="search-container">
+      <form method="GET" action="/search">
+        <input
+          type="text"
+          class="search-bar"
+          name="searchTerm"
+          placeholder="search..."
+          value=""
+        />
+        <div>
+          <input
+            type="checkbox"
+            class="search-bar-checkbox"
+            name="imageOnly"
+            id="imageOnlyCheckbox"
+          />
+          <label for="imageOnlyCheckbox">
+            Only include search results with images</label
+          >
+        </div>
+      </form>
+    </div>
+
+    <div class="form-container">
+      <form method="POST" action="/upload" enctype="multipart/form-data">
+        <div class="form-content-container">
+          <input type="text" name="text" placeholder="say something..." />
+          <div class="upload-buttons">
+            <input type="file" name="theimage" />
+            <input type="submit" name="submitbutton" value="submit" />
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="messages-container">
+
+        <% messages.forEach((message) => {%>
+            <%- include('singleMessage.ejs', {message: message}) %>
+        <%})%>
+        
+    </div>
+  </body>
+</html>

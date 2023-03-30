@@ -42,15 +42,7 @@
     <div class="messages-container">
 
         <% messages.forEach((message) => {%>
-            <div class="post">
-              <a href="/message/<%=message._id%>">
-                <span class="date"><%=message.date%></span>
-                <p class="message-text"><%=message.text%></p>
-                <% if(message.image){  %>
-                    <img class="message-image" src=<%=message.image%>>
-                <%}%>
-                </a>
-            </div>
+            <%- include('singleMessage.ejs', {message: message} )
         <%})%>
         
     </div>
