@@ -6,8 +6,7 @@ NYU IMA Spring 2023
 
 **instructor**  
 sam heckle (they/she)  
-[sam.heckle@nyu.edu](mailto:sam.heckle@nyu.edu)
-
+[sam.heckle@nyu.edu](mailto:sam.heckle@nyu.edu)  
 [office hours](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUZUZ0xFTjEyYmVIfGRlZmF1bHR8Yzg5N2EzOGQ2MGVmNWJiODkwZTliNTM1NmIyMzQ5NTQ)
 
 **ga**  
