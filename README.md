@@ -34,8 +34,8 @@ vesper guo
    * [Express/Node relation and mechanism explanation with example](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction#what_does_express_code_look_like)  
    * [What is the difference between URL parameters and query strings? (with examples)](https://stackoverflow.com/questions/39266970/what-is-the-difference-between-url-parameters-and-query-strings)  
    * Regex: regular expression
-      * (Modzilla doc)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions]  
-      * (W3s doc)[https://www.w3schools.com/jsref/jsref_obj_regexp.asp]
+      * [Modzilla doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)  
+      * [W3s doc](https://www.w3schools.com/jsref/jsref_obj_regexp.asp)  
    * [Body-parser middleware in Node.js explanation](https://www.geeksforgeeks.org/body-parser-middleware-in-node-js/#)
    * Multer module:
       * [What is multer? General explanation and syntax](https://expressjs.com/en/resources/middleware/multer.html)
