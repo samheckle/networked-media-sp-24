@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <link href="/style.css" rel="stylesheet">
+        <link href="/login.css" rel="stylesheet">
+        <link href="/fontawesome-free-6.4.0-web/css/fontawesome.css" rel="stylesheet">
+        <link href="/fontawesome-free-6.4.0-web/css/solid.css" rel="stylesheet">
+    </head>
+    <body>
+        <%- include('header.ejs', {}) %>
+        <div class="form-container">
+            <h1>login</h1>
+            <form method="POST" action="/authenticate">
+                <input type="text" name="username" placeholder="username">
+                <input type="password" name="password" placeholder="password">
+                <input type="submit" name="submitbutton" value="login" class="submit-btn">
+            </form>
+        </div>
+        <a href="/register">Don't have an account? Register!</a>
+    </body>
+</html>
