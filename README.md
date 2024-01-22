@@ -19,11 +19,11 @@ sim (they/them)
 ***
 
 # TABLE OF CONTENTS
-1. [syllabus](https://github.com/samheckle/networked-media/wiki/Syllabus)
-2. [schedule](https://github.com/samheckle/networked-media/wiki/Schedule)
-3. [projects](https://github.com/samheckle/networked-media/wiki/Projects)
-4. [readings](https://github.com/samheckle/networked-media/wiki/Discussion-List)
-5. [technical tutorials](https://github.com/samheckle/networked-media/wiki/Technical-Tutorials)
+1. [syllabus](./syllabus/syllabus.md)
+2. [schedule]()
+3. [projects]()
+4. [readings]()
+5. [technical tutorials]()
 
 *** 
 
