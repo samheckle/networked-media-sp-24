@@ -1,2 +1,0 @@
-{"username":"smh","fullname":"sam heck","password":"$2b$10$DbieI5wSqrmgQlqL63FVBeUQSBfK7HCpmW1S0Ga6iMGnTVQTfNXdy","profpic":"/uploads/ebecaa74856625e53aa38e2abb664a8a","_id":"JYYCmOQxLVbFWluh"}
-{"username":"sam","fullname":"smh","password":"$2b$10$OHymNToiOn1Y.HfU/IfDHOlwDe2wmdnklEnPmqDc7z3m5VF/0VRL.","_id":"MLStsALbH9SAJdHv"}
