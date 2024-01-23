@@ -9,7 +9,8 @@
 * [slides](https://docs.google.com/presentation/d/1P-5xOdJR3Ciw0KCKYL9813C1YQqiydrq89hFyxam7iY/edit?usp=drive_link)
 ### Assignment
 **Due 1/25**
-1. Make Digital Ocean Account  
+1. Install [VS Code](https://code.visualstudio.com/)
+2. Make Digital Ocean Account  
 
 **there are two ways you can do this:**  
 
