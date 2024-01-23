@@ -4,9 +4,7 @@
 * Introductions
 * Lecture - History of Web
 * Tutorial - Basic HTML
-### Class Materials
-* [html notes](../../notes/html.md)
-* [slides](https://docs.google.com/presentation/d/1P-5xOdJR3Ciw0KCKYL9813C1YQqiydrq89hFyxam7iY/edit?usp=drive_link)
+    * you will need to download [VS Code](https://code.visualstudio.com/)
 ### Assignment
 **Due 1/25**
 1. Install [VS Code](https://code.visualstudio.com/)
