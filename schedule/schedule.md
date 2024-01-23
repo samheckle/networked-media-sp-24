@@ -22,24 +22,24 @@ week7 - Midterms
 3/5 | Project #3 Crit | Reading Response #5 due 3/12
 3/7 | Project #3 Crit | Reading Response #5 due 3/12
 week8
-3/12 | Reading Discussion | 3
-3/14 | 2 | 3
+3/12 | Reading Discussion<br> Distributed Systems part 1 | Reading Response #6 due 3/26
+3/14 | Distributed Systems part 2 | Reading Response #6 due 3/26 <br> Project #4.1 due 3/28
 spring break
 week9
-3/26 | 2 | 3
-3/28 | 2 | 3
+3/26 | Reading Discussion<br>Intro to `nedb` | Project #4.1 due 3/28<br> Reading Response #7 due 4/2
+3/28 | Project #4.1 Review<br>`nedb` continued | Reading Response #7 due 4/2 <br> Project #4.2 due 4/4
 week10
-4/2 | 2 | 3
-4/4 | 2 | 3
+4/2 | Reading Discussion <br> Intro to Cookies | Project #4.2 due 4/4 <br>Reading Response #8 due 4/9
+4/4 | Project #4.2 Review<br> Cookies Continued | Reading Response #8 due 4/9 <br>Project #5 (Final) Concept due 4/11
 week11
-4/9 | 2 | 3
-4/11 | 2 | 3
+4/9 | Reading Discussion<br> Intro to Authentication | Reading Response #9 due 4/16
+4/11 | Project #5 (Final) Concept presentations<br>Intro to AJAX and `fetch` | Reading Response #9 due 4/16<br>Project #5 (Final) Wireframe due 4/18<br>Project #5 (Final) due 4/30
 week12
-4/16 | 2 | 3
-4/18 | 2 | 3
+4/16 | Reading Discussion<br> Using External APIs |  Reading Response #10 due 4/23<br>Project #5 (Final) due 4/30
+4/18 | Project #5 Wireframe Presentations | Reading Response #10 due 4/23<br>Project #5 (Final) due 4/30
 week13
-4/23 | 2 | 3
-4/25 | 2 | 3
+4/23 | Reading Discussion<br> Responsive Design | Project #5 (Final) due 4/30
+4/25 | Browser Animations | Project #5 (Final) due 4/30
 week14 - Finals
-4/30 | 2 | 3
-5/2 | 2 | 3
+4/30 | Project #5 Crit | 
+5/2 | Project #5 Crit | 

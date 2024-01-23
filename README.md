@@ -21,9 +21,8 @@ sim (they/them)
 # TABLE OF CONTENTS
 1. [syllabus](./syllabus/syllabus.md)
 2. [schedule](./schedule/schedule.md)
-3. [projects]()
-4. [readings]()
-5. [technical tutorials]()
+3. [projects](./assignments/projects.md)
+4. [readings](./assignments/readings.md)
 
 *** 
 
