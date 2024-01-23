@@ -22,5 +22,8 @@ in both these cases you get $200 for 60 days which means the first two months wi
 **Due 1/30**  
 1. [Reading Response #1](https://github.com/samheckle/networked-media-sp-24/blob/main/assignments/readings.md#reading-response-1)
 2. Review [HTML notes](../../notes/html.md)
-3. Email me & sim your top 3 choices for discussion lead dates. You can view the topics, assigned readings & schedule [here](https://github.com/samheckle/networked-media-sp-24/blob/main/assignments/readings.md)
+3. Email me & sim your top 3 choices for discussion lead dates. You can view the topics, assigned readings & schedule [here](https://github.com/samheckle/networked-media-sp-24/blob/main/assignments/readings.md)  
+  
+an example email:  
+hi sam i want #3, #7, or #10
 
