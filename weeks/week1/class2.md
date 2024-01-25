@@ -7,6 +7,7 @@
 * [slides](https://docs.google.com/presentation/d/1fiUErnRLDVk-zL0vPP9UxpK66uLBqI97_1P_Uw4UsJU/edit?usp=sharing)
 * [digital ocean notes](../../notes/digital_ocean.md)
 * [HTML notes](../../notes/html.md)
+* [webserver folder on my computer](../../webserver)
 ### Assignment
 **Due 1/30**  
 1. [Reading Response #1](https://github.com/samheckle/networked-media-sp-24/blob/main/assignments/readings.md#reading-response-1)
