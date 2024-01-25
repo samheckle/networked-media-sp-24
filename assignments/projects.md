@@ -15,7 +15,7 @@ Keep styling to a minimum – don’t go beyond background & foreground colors, 
 Within this minimal styling, make give some thought to how color, scale, spacing and the relationship between words and images shape the experience of navigating your website. Also consider the other affordances offered by the browser: maybe the HTML page name or address bar are part of your work, or maybe the work requires to be seen in a browser window of a certain size.
 
 ### Deliverables
-Session #4 02/02/23: You will turn in a website, hosted on your Digital Ocean droplet. Your starting page should be called `index.html`, and all other pages should be reachable (or not :) ) from it via hyperlinks.
+2/01: You will turn in a website, hosted on your Digital Ocean droplet. Your starting page should be called `index.html`, and all other pages should be reachable (or not :) ) from it via hyperlinks.
 
 **Some Inspiration**
 * Larissa Pham, [Poem Club](https://lrsphm.github.io/poem-club/)
