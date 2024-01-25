@@ -4,6 +4,7 @@
 * Tutorial - Setting up Digital Ocean
 * Tutorial - HTML
 ### Class Materials
+* [slides](https://docs.google.com/presentation/d/1fiUErnRLDVk-zL0vPP9UxpK66uLBqI97_1P_Uw4UsJU/edit?usp=sharing)
 * [digital ocean notes](../../notes/digital_ocean.md)
 * [HTML notes](../../notes/html.md)
 ### Assignment
