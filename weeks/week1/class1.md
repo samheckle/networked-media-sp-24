@@ -10,7 +10,8 @@
 ### Assignment
 **Due 1/25**
 1. Install [VS Code](https://code.visualstudio.com/)
-2. Make Digital Ocean Account  
+2. Install [Cyberduck](https://cyberduck.io/)
+3. Make Digital Ocean Account  
 
 **there are two ways you can do this:**  
 
