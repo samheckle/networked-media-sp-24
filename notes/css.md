@@ -72,7 +72,7 @@ There are three main ways of styling an HTML page. They all use the same CSS lan
     }
     ```
     
-    And then point the HTML page to this external styling file. To link an external stylesheet, you'd include a `<link>` element inside the `[<head>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head)` tag of your HTML file like this:
+    And then point the HTML page to this external styling file. To link an external stylesheet, you'd include a `<link>` element inside the [`<head>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head) tag of your HTML file like this:
     
     ```html
     <html>
@@ -156,7 +156,6 @@ There are three main ways of styling an HTML page. They all use the same CSS lan
     
 - Width & Height ✅
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e24ea46-4e8a-49f7-be15-6af3ac19dfd3/Untitled.png)
     
     - The **`width`** and `**height**` CSS property set an element's [width](https://developer.mozilla.org/en-US/docs/Web/CSS/width) and [height](https://developer.mozilla.org/en-US/docs/Web/CSS/height). By default, it sets the width of the [content area](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model#content_area), but if `[box-sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing)` is set to `border-box`, it sets the width of the [border area](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model#border_area).
     - Syntax:
@@ -250,12 +249,7 @@ There are three main ways of styling an HTML page. They all use the same CSS lan
     - `serif`, `sans-serif`, `monospace` (Generic family names)
         - `serif` - In typography, a serif is a small line or stroke regularly attached to the end of a larger stroke in a letter or symbol within a particular font or family of fonts.
         - `sans-serif` - In typography and lettering, a sans-serif, sans serif, gothic, or simply sans letterform is one that does not have extending features called "serifs" at the end of strokes.
-        
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9781c326-bdb3-455c-aeaa-4ef0535f1344/Untitled.png)
-        
         - `monospace` - A monospaced font, also called a fixed-pitch, fixed-width, or non-proportional font, is a font whose letters and characters each occupy the same amount of horizontal space. This contrasts with variable-width fonts, where the letters and spacings have different widths.
-        
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f8866350-e2d7-4ca7-899c-e03040161268/Untitled.png)
         
     
 - Text alignment ✅
@@ -273,17 +267,8 @@ There are three main ways of styling an HTML page. They all use the same CSS lan
 - Prototyping CSS changes in the Developer Console (using Chrome) ✅
     - Chrome DevTools is a set of web developer tools built directly into the Chrome browser. DevTools can help you edit pages on-the-fly and diagnose problems quickly.
     - When you want to inspect a DOM (Document Object Model) node's styles or attributes, right-click the element and select **Inspect**. (Or press Command+Option+C (Mac) or Control+Shift+C (Windows, Linux, Chrome OS).
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3c7b4b6d-067d-4b6b-9685-8985753530f1/Untitled.png)
-    
     - The **Elements** panel of DevTools opens. The element where you right-clicked is highlighted in the **DOM Tree**. The DOM Tree is where you do all DOM-related activities in DevTools.
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1d946e65-39e9-4770-bfca-1e7912454080/Untitled.png)
-    
     - Under the “Styles” tab, you can access the CSS code and manipulate it.
-        
-        ![Jan-29-2022 11-08-12.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0c91dc32-5c83-4255-a5fa-f1ca44736f42/Jan-29-2022_11-08-12.gif)
-        
     - More on Viewing And Changing CSS - An interactive [tutorial](https://developer.chrome.com/docs/devtools/css/) to follow through
     
     A similar interface is available in Mozilla Firefox, Safari and most other modern browsers.
@@ -405,16 +390,12 @@ There are three main ways of styling an HTML page. They all use the same CSS lan
             Some examples:
             
             ```css
-            border-radius: 100px; /* 🔽 shape below */
+            border-radius: 100px;
             ```
-            
-            ![Screen Shot 2022-01-29 at 11.15.46 AM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2848e94c-d611-48a3-826c-6a8385791336/Screen_Shot_2022-01-29_at_11.15.46_AM.png)
             
             ```css
-            border-radius: 10% 30% 50% 70%; /* 🔽 shape below */
+            border-radius: 10% 30% 50% 70%; 
             ```
-            
-            ![Screen Shot 2022-01-29 at 11.16.44 AM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d1db91a2-7f2c-4eb0-b20d-32dd06c6307c/Screen_Shot_2022-01-29_at_11.16.44_AM.png)
             
 - Padding ✅
     - The `[padding](https://developer.mozilla.org/en-US/docs/Web/CSS/padding)` property controls the appearance of content within each element, or say, the amount of space between the content and the border of the page. It is most commonly used to create whitespace within items. The content will remain the same size as before, but more space will surround it when the padding value increases. This is beneficial when you enlarge the clickable area of interactive elements like buttons.
@@ -425,16 +406,13 @@ There are three main ways of styling an HTML page. They all use the same CSS lan
         - When **four** values are specified, the paddings apply to the **top**, **right**, **bottom**, and **left** in that order (clockwise).
     - Similar to the `margin` and `border` property, `padding` can also set sides individually by adding the specification after it: `[padding-bottom](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-bottom)`, `[padding-left](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-left)` ,`[padding-right](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-right)` , `[padding-top](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-top)`
 - Difference between margin, border, padding ✅
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e24ea46-4e8a-49f7-be15-6af3ac19dfd3/Untitled.png)
+
+  ![untitled](https://drive.google.com/uc?id=1S660tm2kUyPB5mHfENxo6dT9z_Jm0UpQ)
     
     - Margin is the space surrounding an element’s border in CSS, whereas padding is between its border and its content.
     - The margin property governs the space around an element, whereas the padding property governs the space within an element.
 - The HTML box model ✅
     - Or CSS box model - it is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. Below is a CSS box model illustration, which is what you would see in a browser console.
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/758de0b4-3070-4b47-abd5-65e6d1b62fff/Untitled.png)
-    
     - In order to set the width and height of an element correctly in all browsers, you need to know how the box model works. When you set the width and height properties of an element with CSS, you just set the width and height of the **content area (blue part)**. To calculate the full size of an element, you must also add padding, borders and margins.
         - The total width of an element should be calculated like this:
         
