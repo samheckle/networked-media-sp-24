@@ -6,6 +6,7 @@
 ### Class Materials
 * [HTML notes](../../notes/html.md)
 * [CSS notes](../../notes/css.md)
+* [zoom](https://nyu.zoom.us/j/98354181978)
 ### Assignment
 **Due 2/1**
 1. [Project #1](https://github.com/samheckle/networked-media-sp-24/blob/main/assignments/projects.md#project-1)
