@@ -7,6 +7,7 @@
 * [HTML notes](../../notes/html.md)
 * [CSS notes](../../notes/css.md)
 * [slides](https://docs.google.com/presentation/d/19M8zG8bzm-Ye_n_Kb5BN3wAa2u04_DJnkn_KhfRtvow/edit?usp=sharing)
+* [code](https://github.com/samheckle/networked-media-sp-24/tree/main/webserver/public/class3demo)
 * [zoom recording](https://nyu.zoom.us/rec/share/vPoHrrMOWf84iBMQjstZ1F3rCNR_KPk-a2B9ArQPmp4wE7zf_GtVSWNLdD4g-sZi.hDy6nAMDvGkwoEBY)
 ### Assignment
 **Due 2/1**
