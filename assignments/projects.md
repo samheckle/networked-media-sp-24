@@ -30,9 +30,9 @@ Some aspects to consider when conceptualizing this project are the time scale of
 
 ### Deliverables
 
-Session #5 02/07/23: Come up with a concept for your project and post it on your blog / Google Doc / etc. Include a short description of what you will make, one or two sketches (hand-drawn is fine, but feel free to use digital tools if you prefer) and a few references or relevant projects. 
+Session #5 02/08/23: Come up with a concept for your project and post it on your blog / Google Doc / etc. Include a short description of what you will make, one or two sketches (hand-drawn is fine, but feel free to use digital tools if you prefer) and a few references or relevant projects. 
 
-Session #7 02/14/23: The project is due, as a website hosted on your Digital Ocean server. The site should be hosted in the public directory of your web server, under a folder called clock. The main HTML page of your clock should be called index.html (its filesystem path will be your_webserver/public/clock/index.html and it will be accessible online at http://your-ip/clock.)
+Session #7 02/13/23: The project is due, as a website hosted on your Digital Ocean server. The site should be hosted in the public directory of your web server, under a folder called clock. The main HTML page of your clock should be called index.html (its filesystem path will be your_webserver/public/clock/index.html and it will be accessible online at http://your-ip/clock.)
 
 **Some Inspiration**
 * Fruitful School, [Emoji Clock](https://web.archive.org/web/20201126185008/http://www.fruitful.school/blog/2019-12-23.html)
