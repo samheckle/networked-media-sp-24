@@ -6,7 +6,8 @@
 * [CSS notes](../../notes/css.md)
 * [DOM notes](../../notes/dom.md)
 * [slides](https://docs.google.com/presentation/d/1ZvqZNBcvBlQcOXb094tY6KD1icOX5zaDw1kp97Opvfo/edit?usp=sharing)
-* [code]()
+* [code](https://github.com/samheckle/networked-media-sp-24/tree/main/webserver/public/class4demo)
+* [live demo site](http://159.89.85.172/class4demo/)
 ### Assignment
 **Due 2/6**
 1. [Reading Response #2](https://github.com/samheckle/networked-media-sp-24/blob/main/assignments/readings.md#reading-response-2)  
