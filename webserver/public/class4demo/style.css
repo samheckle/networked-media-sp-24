@@ -1,0 +1,17 @@
+#important-content{
+    color: black;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+p {
+    color: white;
+}
+
+.blue-paragraph{
+    background-color: blue;
+}
+
+.red-paragraph{
+    background-color: red;
+}
