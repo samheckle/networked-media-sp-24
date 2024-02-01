@@ -5,6 +5,8 @@
 ### Class Materials
 * [CSS notes](../../notes/css.md)
 * [DOM notes](../../notes/dom.md)
+* [slides](https://docs.google.com/presentation/d/1ZvqZNBcvBlQcOXb094tY6KD1icOX5zaDw1kp97Opvfo/edit?usp=sharing)
+* [code]()
 ### Assignment
 **Due 2/6**
 1. [Reading Response #2](https://github.com/samheckle/networked-media-sp-24/blob/main/assignments/readings.md#reading-response-2)  
