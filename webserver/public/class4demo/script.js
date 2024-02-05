@@ -19,4 +19,16 @@ window.onload = () => {
 
     let firstRedParagraph = document.getElementById('change-red')
     firstRedParagraph.innerHTML = 'this red paragraph has changed it\'s text with javascript'
+
+    let container = document.getElementById('container')
+    
+    // create the html element that i will add
+    // this creates a link element that will be added to the page
+    let newlink = document.createElement('a')
+
+    // add href to the new link
+    newlink.href = "https://www.google.com/"
+    newlink.innerHTML = "go to google"
+
+    container.appendChild(newlink)
 }
