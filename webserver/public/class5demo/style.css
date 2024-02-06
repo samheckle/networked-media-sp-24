@@ -1,0 +1,11 @@
+.text-body {
+  background-color: blueviolet;
+  color: white;
+  font-size: 48px;
+}
+
+body{
+    background-image: url("https://www.usatoday.com/gcdn/-mm-/ac688eec997d2fce10372bf71657297ff863814d/c=171-0-1195-768/local/-/media/2022/03/16/USATODAY/usatsports/imageForEntry5-ODq.jpg");
+    background-repeat: repeat;
+    background-size: 200px;
+}
