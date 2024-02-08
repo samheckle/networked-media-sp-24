@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    overflow-y: hidden;
+    height: 100%;
+}
+
+.content-container {
+    /* adjusting width and height of container to be the full browser window */
+    width: 100vw;
+    height: 100vh;
+
+    /* text things */
+    font-family: monospace;
+    text-align: center;
+
+    /* adding borders */
+    /* border: solid red 10px; */
+    border-top: solid red 1px;
+    border-bottom: dashed green 3px;
+
+    /* padding is space between border and content */
+    /* padding-top: 50vh; */
+}
+
+.button-class{
+    position: absolute;
+    top: 50%;
+    right: 48%;
+
+    background-color: lightgreen;
+    padding: 3px;
+    border: black dashed 2px;
+    cursor: pointer;
+
+    /* https://easings.net/ */
+    /* https://www.w3schools.com/css/css3_transitions.asp */
+    transition: opacity .25s linear;
+}
+
+.button-class:hover{
+    opacity: .5;
+}
+
+.day{
+    background-color: white;
+    color: black;
+}
+
+.night{
+    background-color: black;
+    color: white;
+}
