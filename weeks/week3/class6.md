@@ -4,6 +4,7 @@
 * Tutorial - Events
 ### Class Materials
 * [Event notes](../../notes/events.md)
+* [class notes](https://github.com/samheckle/networked-media-sp-24/tree/main/webserver/public/class6demo)
 ### Assignment
 **Due 2/13**
 1. [Project #2](https://github.com/samheckle/networked-media-sp-24/blob/main/assignments/projects.md#project-2)
