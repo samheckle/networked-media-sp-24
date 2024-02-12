@@ -23,7 +23,7 @@ Within this minimal styling, make give some thought to how color, scale, spacing
 * Everest Pipkin, [Gift Game](https://gift-game.neocities.org/)
 
 # Project #2
-### due 2/13
+### due 2/15
 Using HTML, CSS and Javascript, create a clock that lives in the web browser. It should only have one HTML page, but other than that there is no specific requirement on its exact format or inner workings. All it should do is mark the passing of time in a way that is meaningful to you.
 
 Some aspects to consider when conceptualizing this project are the time scale of your clock (e.g. time of day vs geological era,) the “materials” you are using to make it come to life (numbers / words / emojis / images / pure color, and so on,) whether your clock talks about “absolute time” or has a point of reference, and the overall design of the piece (does it reference a real clock? or is it more abstract? how do typography, color, spacing, and the relationships between elements contribute to your overall idea?). Don’t feel constrained by these categories, they are just meant to help you get started.
@@ -32,7 +32,7 @@ Some aspects to consider when conceptualizing this project are the time scale of
 
 Session #5 02/08/23: Come up with a concept for your project and post it on your blog / Google Doc / etc. Include a short description of what you will make, one or two sketches (hand-drawn is fine, but feel free to use digital tools if you prefer) and a few references or relevant projects. 
 
-Session #7 02/13/23: The project is due, as a website hosted on your Digital Ocean server. The site should be hosted in the public directory of your web server, under a folder called clock. The main HTML page of your clock should be called index.html (its filesystem path will be your_webserver/public/clock/index.html and it will be accessible online at http://your-ip/clock.)
+Session #7 02/15/23: The project is due, as a website hosted on your Digital Ocean server. The site should be hosted in the public directory of your web server, under a folder called clock. The main HTML page of your clock should be called index.html (its filesystem path will be your_webserver/public/clock/index.html and it will be accessible online at http://your-ip/clock.)
 
 **Some Inspiration**
 * Fruitful School, [Emoji Clock](https://web.archive.org/web/20201126185008/http://www.fruitful.school/blog/2019-12-23.html)
