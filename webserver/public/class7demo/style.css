@@ -1,0 +1,55 @@
+html{
+    font-family: "Open Sans", sans-serif;
+}
+
+h1{
+    margin-bottom: 0;
+    font-size: 36px;
+}
+
+span.red{
+    color: red;
+}
+
+span.blue{
+    color: blue;
+}
+
+hr{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer{
+    border-top: 2px solid black;
+}
+
+.footer ul{
+    margin: 0;
+}
+
+/* .footer-menu div{
+    width: 33%;
+    display: inline-block;
+} */
+
+.footer-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.header-article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-img{
+    flex-grow: 2;
+}
+
+.header-text{
+    flex-grow: 2;
+}
