@@ -4,6 +4,7 @@
 * Intro to Servers
 ### Class Materials
 * [Server notes](../../notes/server.md)
+* [starter code](../../starter-code/class9-starter)
 ### Assignment
 
 **Due 2/22**
