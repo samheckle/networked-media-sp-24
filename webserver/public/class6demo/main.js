@@ -7,7 +7,8 @@ window.onload = () => {
 
     // button.addEventListener("click", mouseClickHandler)
 
-    button.addEventListener("click", () => {
+    button.addEventListener("click", (e) => {
+        console.log('printing event  ' + e.x)
         console.log('button has been clicked in the third way')
 
         const container = document.getElementById("container")
@@ -33,6 +34,7 @@ window.onload = () => {
 
     const text = document.getElementById("text")
     document.addEventListener('keydown', (e) => {
+        console.log('printing event  ' + e.altKey)
         console.log(e.key)
 
         let newText = e.key
