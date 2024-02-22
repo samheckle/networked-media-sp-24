@@ -3,11 +3,11 @@
 * Project #2 Concept Discussion
 * Tutorial - Events
 ### Class Materials
-* [Event notes](../../notes/events.md)
+* [Event notes](../notes/events.md)
 * [demo](https://github.com/samheckle/networked-media-sp-24/tree/main/webserver/public/class6demo)
 ### Assignment
 **Due 2/13**
-1. Review [Event notes](../../notes/events.md)
+1. Review [Event notes](../notes/events.md)
 2. JavaScript Review Videos
      - Variables: [let vs. var](https://youtu.be/q8SHaDQdul0?si=obQ2OEPe7ai3uyFB), [const](https://youtu.be/2iLVFyYwyRA?si=bO6FZpO_EnCJ2bzk)
      - Functions: [functions](https://youtu.be/wRHAitGzBrg?si=5dqPkBH6iLr6nw2-), [parameters](https://youtu.be/zkc417YapfE?si=pIl8fiBAeFgMhcyc), [return statements](https://youtu.be/qRnUBiTJ66Y?si=gSESqdfM7nThhn7O), [anonymous / arrow](https://youtu.be/mrYMzpbFz18?si=t20tfomZQ_q7f-zv)

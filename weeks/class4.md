@@ -3,8 +3,8 @@
 * Project #1 Critique
 * Tutorial - DOM
 ### Class Materials
-* [CSS notes](../../notes/css.md)
-* [DOM notes](../../notes/dom.md)
+* [CSS notes](../notes/css.md)
+* [DOM notes](../notes/dom.md)
 * [slides](https://docs.google.com/presentation/d/1ZvqZNBcvBlQcOXb094tY6KD1icOX5zaDw1kp97Opvfo/edit?usp=sharing)
 * [code](https://github.com/samheckle/networked-media-sp-24/tree/main/webserver/public/class4demo)
 * [live demo site](http://159.89.85.172/class4demo/)

@@ -5,8 +5,8 @@
 * Tutorial - HTML
 ### Class Materials
 * [slides](https://docs.google.com/presentation/d/1fiUErnRLDVk-zL0vPP9UxpK66uLBqI97_1P_Uw4UsJU/edit?usp=sharing)
-* [digital ocean notes](../../notes/digital_ocean.md)
-* [HTML notes](../../notes/html.md)
+* [digital ocean notes](../notes/digital_ocean.md)
+* [HTML notes](../notes/html.md)
 * [webserver folder on my computer](../../webserver)
 ### Assignment
 **Due 1/30**  
@@ -14,8 +14,8 @@
 
 Reading responses are always due by the start of class. If you do not have a link submitted by 3.40pm the assignment is considered late. You can submit a link to your google doc, notion, or other blog in the sheet [here](https://docs.google.com/spreadsheets/d/1I4rMb-gg-LCbdFIfDhe7uzGNk5gqZN4I2E5XjWZsquM/edit#gid=1715658920). Please ensure both myself (sam.heckle@nyu.edu) and sim (sh4712@nyu.edu).
 
-3. Review [HTML notes](../../notes/html.md)
-4. Review [Digital Ocean notes](../../notes/digital_ocean.md)
+3. Review [HTML notes](../notes/html.md)
+4. Review [Digital Ocean notes](../notes/digital_ocean.md)
 5. Email me & sim your top 3 choices for discussion lead dates. You can view the topics, assigned readings & schedule [here](https://github.com/samheckle/networked-media-sp-24/blob/main/assignments/readings.md)  
   
 an example email:  

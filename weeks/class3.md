@@ -4,8 +4,8 @@
 * Tutorial - HTML
 * Tutorial - CSS
 ### Class Materials
-* [HTML notes](../../notes/html.md)
-* [CSS notes](../../notes/css.md)
+* [HTML notes](../notes/html.md)
+* [CSS notes](../notes/css.md)
 * [slides](https://docs.google.com/presentation/d/19M8zG8bzm-Ye_n_Kb5BN3wAa2u04_DJnkn_KhfRtvow/edit?usp=sharing)
 * [code](https://github.com/samheckle/networked-media-sp-24/tree/main/webserver/public/class3demo)
 * [zoom recording](https://nyu.zoom.us/rec/share/vPoHrrMOWf84iBMQjstZ1F3rCNR_KPk-a2B9ArQPmp4wE7zf_GtVSWNLdD4g-sZi.hDy6nAMDvGkwoEBY)
@@ -15,7 +15,7 @@
 
 Projects are always due at the start of class. You submit your project link via copying your ip address into your row on the spreadsheet [here](https://docs.google.com/spreadsheets/d/1I4rMb-gg-LCbdFIfDhe7uzGNk5gqZN4I2E5XjWZsquM/edit#gid=0)  
 
-2. Review [CSS Notes](../../notes/css.md)
+2. Review [CSS Notes](../notes/css.md)
 
 **Due 2/6**
 1. [Reading Response #2](https://github.com/samheckle/networked-media-sp-24/blob/main/assignments/readings.md#reading-response-2)  
