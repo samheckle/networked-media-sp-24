@@ -1,4 +1,4 @@
-# 2/20/24
+# 2/22/24
 ### Overview  
 * Continue Express Demo
 * Introduction to Templating
@@ -8,6 +8,13 @@
 * [Template notes](../notes/templates.md)
 * [completed class 9 demo](https://github.com/samheckle/networked-media-sp-24/tree/main/demos/class9-demo)
 * [class 10 demo](https://github.com/samheckle/networked-media-sp-24/tree/main/demos/class10-demo)
+
+### Reference Materials
+* [mdn object documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
+* [mdn documentation forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+* [coding train objects](https://youtu.be/-e5h4IGKZRY?si=QGAK86JvzLyX9UU-)
+* [coding train arrays of objects](https://youtu.be/fBqaA7zRO58?si=-ATteDREBBsqeKRx)
+  - specifically if you were confused about `const data = {messages:[visible: true, text: 'hi']}`
 ### Assignment
 
 **Due 2/27**
