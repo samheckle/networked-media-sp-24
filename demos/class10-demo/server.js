@@ -6,6 +6,8 @@ const app = express()
 
 app.use(express.static('public'))
 
+app.set('view engine', 'ejs')
+
 // global variables
 let storedmessages = []       // this is a data structure that will hold all of the messages that the client sends to the server
 
@@ -45,6 +47,21 @@ app.get('/messages', (req, res)=>{
     }
 
     res.send(allmessages)
+})
+
+app.get('/template', (req, res)=>{
+    const data = {
+        test:[
+            { visible: true, text: storedmessages[0].message},
+            { visible: false, text: 'second'},
+            { visible: true, text: 'third'}
+        ]
+    }
+    res.render('template.ejs', data)
+})
+
+app.get('/guestbook', (req, res)=>{
+    res.render('guestbook.ejs', {})
 })
 
 // setting up the server to start

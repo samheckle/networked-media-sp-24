@@ -1,0 +1,17 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1> this is a template </h1>
+        <% test.forEach( (message)=>{ %>
+            <% if(message.visible){ %>
+                <h2><%=message.text %> </h2>
+            <%} else {%>
+                <h2> sorry you can't see this message </h2>
+            <% }%>
+        <%})%>
+
+        <a href="/guestbook.html">go to guestbook</a>
+    </body>
+</html>

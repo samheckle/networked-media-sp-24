@@ -6,6 +6,7 @@
 * [Server notes](../notes/server.md)
 * [starter code](../starter-code/class9-starter)
 * [demo code](../demos/class9-demo)
+* [slides](https://docs.google.com/presentation/d/1b0jbQ_MVqKa-IukcnqjZ3wlQSkptz5i7rlEJMqsCvzA/edit?usp=sharing)
 ### Assignment
 
 **Due 2/22**
