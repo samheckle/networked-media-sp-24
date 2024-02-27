@@ -16,7 +16,7 @@ app.get('/', (req, res)=>{
 
 // setting up the server to start
 // LAST PIECE OF CODE
-app.listen(8000, ()=> {
+app.listen(5555, ()=> {
     console.log('server starts')
 })
 
