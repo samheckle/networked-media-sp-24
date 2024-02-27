@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>🫡</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <div class="input-container">
+        <form method="POST" action="/upload" enctype="multipart/form-data">
+          <input type="text" name="text" placeholder="say something...">
+          <input type="submit" name="submitbutton" value="Submit">
+          <input type="file" name="theimage">
+        </form>
+      </div>
+      <div class="messages-container">
+        <% allposts.forEach( (indivPost)=>{ %>
+          <div class="message-item">
+            <div class="date"> <%=indivPost.date %></div>
+            <p class="message"> <%= indivPost.text %></p>
+            <% if(indivPost.imgSrc){ %>
+              <div class="item-image"><img src="<%=indivPost.imgSrc%>"></div>
+            <% } %>
+          </div>
+        <% }) %>
+      </div>
+    </div>
+  </body>
+</html>

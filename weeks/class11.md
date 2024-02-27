@@ -5,6 +5,8 @@
 ### Class Materials
 * [POST request notes](../notes/post.md)
 * [starter code](../starter-code/class11-starter)
+* [finished code demo](../demos/class11-demo)
+* [slides](https://docs.google.com/presentation/d/1SnDXloQ4or61M8BGn7YGZVK2guTj8UDUBJrEQMB6OA8/edit?usp=sharing)
 ### Assignment
 
 **Due 2/29**
