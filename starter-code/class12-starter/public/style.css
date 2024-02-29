@@ -1,0 +1,66 @@
+.app-container {
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  width: 69%;
+}
+
+.input-container {
+  border: 5px ridge grey;
+  padding: 10px;
+  margin: auto;
+}
+
+.input-container form {
+  margin: 0;
+}
+
+input[type="text"] {
+  width: 100%;
+  height: 50px;
+}
+
+.controls-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10px;
+  align-items: center;
+}
+
+input[type="submit"]{
+  border: none;
+  font-size: 16pt;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px 20px 5px 20px;
+  background-color: #f0f0f0;
+  font-family: 'Ariel'
+}
+
+.messages-container {
+  padding-top: 10px;
+  text-align: left;
+}
+
+.date {
+  color: lightgrey;
+  font-family: sans-serif;
+  font-size: 10pt;
+}
+
+.message {
+  font-size: 16pt;
+  margin: 0;
+  padding-top: 5px;
+}
+
+.message-item {
+  margin-top: 20px;
+  border: 2px grey solid;
+  padding: 10px 5px;
+}
+
+.item-image img {
+  width: 100%;
+}
