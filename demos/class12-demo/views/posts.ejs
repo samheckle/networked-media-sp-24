@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>🫡</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+
+    <%- include('navigation.ejs', {}) %>
+    <div class="app-container">
+      <% for(let i = 0; i < allposts.length; i++){ %>
+        <div class="message-item">
+            <div class="date"> <%= allposts[i].date %> </div>
+        </div>
+      <% } %>
+    </div>
+  </body>
+</html>
