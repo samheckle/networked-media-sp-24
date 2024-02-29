@@ -9,7 +9,24 @@
     <div class="app-container">
       <% for(let i = 0; i < allposts.length; i++){ %>
         <div class="message-item">
+
+          <!-- a new form that handles deleting posts -->
+          <form method="GET" action="/project3/delete">
+            <!-- create a button that is clicked when post is deleted -->
+            <input type="submit" value="x" class="close-x">
+            <!-- passes in the value of the id of the post so we know which one to delete -->
+            <!-- type="hidden" because we are only passing the data from the server -->
+            <input type="hidden" name="postId" value=" <%= allposts[i].id %> ">
+          </form>
+
             <div class="date"> <%= allposts[i].date %> </div>
+            <p class="message"> <%= allposts[i].text %> </p>
+
+            <% if(allposts[i].imgSrc){ %>
+              <div class="item-image">
+                <img src=" <%= allposts[i].imgSrc%> ">
+              </div>
+            <% } %>
         </div>
       <% } %>
     </div>

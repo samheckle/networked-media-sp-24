@@ -68,6 +68,8 @@ input[type="file"]{
   margin-top: 20px;
   border: 2px grey solid;
   padding: 10px 5px;
+  position: relative;
+  text-align: left;
 }
 
 .item-image img {
@@ -85,5 +87,12 @@ input[type="file"]{
   padding: 10px;
   margin: auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+input[type="submit"].close-x{
+  position: absolute;
+  right: 10px;
+  padding: 3px;
 }
