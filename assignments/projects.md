@@ -55,7 +55,7 @@ The entire project is due on March 7th (midterms week,) but the work will be spl
 
 Due 2/22: Choose the community you want to focus on, and come up with a design for the website you want to build. A common structure is to have a header, a footer, a landing page and a few content pages, but don’t feel constrained by this. Use a digital tool to create your **site map** and **wireframes** (Figma, Google Slides, Canva, Miro, etc.) Begin working on the visual design of the site as well.
     
-Due 3/5: The project is due, as a website hosted on your Digital Ocean server. The site should be hosted in the `public` directory of your web server, under a folder called `community`. The main HTML page of your site should be called `index.html` (its filesystem path will be `your_webserver/public/community/index.html` and it will be accessible online at `http://your-ip/community`.)
+Due 3/5: The project is due, as a website hosted on your Digital Ocean server. The site should be hosted in a new folder at the same level as your webserver folder eg. `root/project3` or `root/community`. You should not include any `.html` files and everything should be in `.ejs` inside of your `views` folder. It will be accessible online at `http://your-ip:[port]/`. For a full tutorial on this, please refer to the [class 11 slides](https://docs.google.com/presentation/d/1SnDXloQ4or61M8BGn7YGZVK2guTj8UDUBJrEQMB6OA8/edit#slide=id.g2bd033dc6d2_0_117) starting at the cyberduck screenshot. If you choose to add `/project3` or `/community` to the path that is ok, just make sure to add that to all your routes as well.
 
 **Some Inspiration:**
 
