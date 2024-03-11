@@ -32,6 +32,8 @@ let data = []
 // new route to handle uploaded data
 app.post('/upload', uploadProcessor.single('theimage'), (req, res)=>{
     
+    console.log(req.body)
+
     let now = new Date()
     
     // message object that holds the data from the form
