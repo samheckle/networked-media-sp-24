@@ -73,20 +73,21 @@ Due 3/5: The project is due, as a website hosted on your Digital Ocean server. T
 - [linci.co’s Design Bookmarks](https://bookmarks.linci.co/)
 
 # Project #4
-### due 4/4
+### due 3/28 and 4/4
 This project consists of 2 small exercises to review technical components like apis and databases. 
 
 ### Deliverables:
 
-Due 3/28 #4.1: Mastodon Bot
-Create an account on our class's [Mastodon server](https://networked-media.itp.io/invite/GB28dTiY) and make a bot that runs automatically! What is the interval it posts at? Try bigger times, like once a day or once a week. Think about using an exernal api to produce content. 
+Due 3/28: #4.1 Mastodon Bot
+Create an account on our class's [Mastodon server](https://networked-media.itp.io/invite/GB28dTiY) and make a bot that runs automatically! What is the interval it posts at? Try bigger times, like once a day or once a week. Think about using an exernal api to produce content.   
+
 **Some Inspiration**
 * Allison Parrish, [everyword](https://twitter.com/everyword?lang=en)
 * Darius Kazemi, [bot summit](http://tinysubversions.com/2013/11/bot-summit/) -- sadly a lot of these bots are removed from twitter aka x (which is also why we are using Mastodon)
 * Colin Mitchell, [botsin.space](https://botsin.space/public/local) -- a mastodon server specifically for bots
 
 
-Due 4/4 #4.2:
+Due 4/4: #4.2
 This assignment is all about getting comfortable with databases. Take the starter code and practice working with databases. You can also incorporate databases into your midterm for this exercise!
 
 # Project #5
