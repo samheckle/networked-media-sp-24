@@ -24,6 +24,7 @@ nvm install lts/iron
 node -v
 ```
 Which should output `v20.11.1`
+
 5. Sometimes your server will change the default node version, so in order to change that we need to run
 ```
 nvm alias default 20.11.1
