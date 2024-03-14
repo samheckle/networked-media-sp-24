@@ -4,6 +4,8 @@
 * Introduction to fetch
 ### Class Materials
 * [class 15 slides](https://docs.google.com/presentation/d/1zMoRWPOvjWCbGu70JZYE-UahnkHyesqq3xFZHwl0IUc/edit?usp=sharing)
+* [class 15 demo](https://github.com/samheckle/networked-media-sp-24/tree/main/demos/class15-demo)
+* [api notes](https://github.com/samheckle/networked-media-sp-24/blob/main/notes/api_requests.md)
 
 ### Reference Materials
 * [Get OMDb api key](https://www.omdbapi.com/apikey.aspx)
