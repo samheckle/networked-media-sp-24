@@ -35,7 +35,7 @@ Which should output `default -> 20.11.1 (-> v20.11.1)`
 
 1. Open Cyberduck and drag your entire folder into your droplet. The bot folder should be at the same level as your `/project3` and `/webserver` folders.
 
-![cyberduck.png](https://drive.google.com/uc?id=1xPBLDVEqrsZ_bUrQG9njMN3UY2hnJ8Jx)
+![cyberduck.png](https://drive.google.com/uc?id=1Wdbc5KWiELQ5SxKeIm5lmUczwuZv4yoX)
 
 2. Open terminal and ssh into your droplet with `ssh root@{your-ip}`
 3. Navigate to your bot folder using `cd`
