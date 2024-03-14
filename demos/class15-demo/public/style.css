@@ -1,0 +1,25 @@
+body {
+  /* overflow: hidden; */
+}
+
+.submit-container {
+  margin: auto;
+  width: 33%;
+  display: flex;
+  gap: 20px;
+}
+
+.textbox{
+    margin: 3px;
+}
+
+#button {
+  border: 2px darkgray solid;
+  padding: 3px;
+  background-color: lightgray;
+  transition: background-color .25s linear;
+}
+
+#button:hover{
+    background-color: darkgray;
+}
