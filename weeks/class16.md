@@ -5,7 +5,7 @@
 ### Class Materials
 * [class 16 slides](https://docs.google.com/presentation/d/12cKTyyxb8xOHxVevGK12mhQfu85kEZ50LzQtuEAYEXw/edit?usp=sharing)
 * [mastodon droplet configuration](https://github.com/samheckle/networked-media-sp-24/blob/main/notes/mastodon.md)
-
+* [mastodon bot demo code](https://github.com/samheckle/networked-media-sp-24/tree/main/demos/class16-demo)
 ### Reference Materials
 * 
 
