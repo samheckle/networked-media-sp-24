@@ -81,6 +81,8 @@ This project consists of 2 small exercises to review technical components like a
 Due 3/28: #4.1 Mastodon Bot
 Create an account on our class's [Mastodon server](https://networked-media.itp.io/invite/GB28dTiY) and make a bot that runs automatically! What is the interval it posts at? Try bigger times, like once a day or once a week. Think about using an exernal api to produce content.   
 
+You should submit a link that looks something like: https://networked-media.itp.io/@{your-username} to the [spreadsheet](https://docs.google.com/spreadsheets/d/1I4rMb-gg-LCbdFIfDhe7uzGNk5gqZN4I2E5XjWZsquM/edit?usp=sharing).
+
 **Some Inspiration**
 * Allison Parrish, [everyword](https://twitter.com/everyword?lang=en)
 * Darius Kazemi, [bot summit](http://tinysubversions.com/2013/11/bot-summit/) -- sadly a lot of these bots are removed from twitter aka x (which is also why we are using Mastodon)
