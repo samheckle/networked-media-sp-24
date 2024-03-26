@@ -8,11 +8,19 @@
 // what does the below chunk of code do?
 // A: library imports and settings
 const express = require("express"); // imports the express library
-const multer = require("multer");   // multer library
-const bodyParser = require("body-parser");  // body parser library
+const multer = require("multer"); // multer library
+const bodyParser = require("body-parser"); // body parser library
+
+// database library import
+const nedb = require("@seald-io/nedb")
+// initialize database
+let database = new nedb({
+  filename: "database.txt", 
+  autoload: true
+})
 
 // setting for the bodyParser library to correctly encode data
-const urlEncodedParser = bodyParser.urlencoded({ extended: true }); 
+const urlEncodedParser = bodyParser.urlencoded({ extended: true });
 
 // what is app?
 // A: initialize express library as a variable to use
@@ -25,8 +33,8 @@ const upload = multer({
 });
 
 // what do each of these statements do?
-app.use(express.static("public"));  // public folder as setting for assets
-app.use(urlencodedParser);        // initialize body parser with app, allows us to use POST requests and send data to server
+app.use(express.static("public")); // public folder as setting for assets
+app.use(urlEncodedParser); // initialize body parser with app, allows us to use POST requests and send data to server
 
 // initialize template engine
 // use "views" folder
@@ -39,9 +47,28 @@ app.get("/text", (request, response) => {
   // response.send("server working");
 
   // what steps do we need in order to use a template ejs file?
-  // make a file called index.ejs and render it here 
-  response.render('index.ejs', {})
+  // make a file called index.ejs and render it here
+  response.render("index.ejs", {});
   // make sure to comment out the res.send() code above
+});
+
+// handle the /search route from the form
+app.get("/search", (req, res) => {});
+
+app.post("/upload", upload.single("theimage"), (req, res) => {
+  console.log(req.body)
+
+  let currDate = new Date()
+
+  let data = {
+    text: req.body.text,
+    date: currDate.toLocaleString()
+  }
+
+  database.insert(data, (err, newData)=>{
+    console.log(newData)
+    res.redirect('/text')
+  })
 });
 
 // what does the number signify?
