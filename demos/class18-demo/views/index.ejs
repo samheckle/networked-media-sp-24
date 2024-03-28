@@ -1,0 +1,26 @@
+<div class="search-container">
+  <form method="GET" action="/search">
+    <input
+      type="text"
+      class="search-bar"
+      name="searchTerm"
+      placeholder="Search..."
+    />
+  </form>
+</div>
+
+<div class="form-container">
+  <form method="POST" action="/upload" enctype="multipart/form-data">
+    <input type="text" name="text" placeholder="Say something..." />
+    <input type="submit" name="submitbutton" value="Submit" />
+  </form>
+</div>
+
+<div class="all-posts">
+  <% posts.forEach( (post) => { %>
+    <div class="post">
+      <span class="date"> <%= post.date %></span>
+      <p class="post-text"> <%= post.text %> </p>
+    </div>
+  <% }) %>
+</div>
