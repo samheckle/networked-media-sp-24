@@ -6,6 +6,7 @@
 ### Class Materials
 * [database notes](../notes/databases.md)
 * [slides](https://docs.google.com/presentation/d/1xQyyaS9e-zUYkUFhB4HAQaUC_cusiXf4segK2745pgQ/edit?usp=sharing)
+* [class 18 demo](../demos/class18-demo)
 
 ### Reference Materials
 * [Express Route Parameter Documentation](https://expressjs.com/en/guide/routing.html)

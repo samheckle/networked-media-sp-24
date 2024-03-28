@@ -17,4 +17,4 @@
 
 **Due 3/28**
 1. [Project #4.1 -- Make a Mastodon bot](https://github.com/samheckle/networked-media-sp-24/blob/main/assignments/projects.md#project-4)
-* added reply and mention in [class 16 demo]((../demos/class16-demo))
+* added reply and mention in [class 16 demo](../demos/class16-demo)

@@ -1,12 +1,4 @@
-// how do we know this is a npm project?
-// A: node_module folder or package.json
-// if node_modules is missing, we need to run npm install
-
-// what command do we run to start an npm project?
-// npm init
-
-// what does the below chunk of code do?
-// A: library imports and settings
+// library imports and settings
 const express = require("express"); // imports the express library
 const multer = require("multer"); // multer library
 const bodyParser = require("body-parser"); // body parser library
@@ -22,27 +14,22 @@ let database = new nedb({
 // setting for the bodyParser library to correctly encode data
 const urlEncodedParser = bodyParser.urlencoded({ extended: true });
 
-// what is app?
-// A: initialize express library as a variable to use
+// initialize express library as a variable to use
 const app = express();
 
-// what is this configuring?
-// A: multer configuration to set the destination where images are stored when they are uploaded from the client site
+// multer configuration to set the destination where images are stored when they are uploaded from the client site
 const upload = multer({
   dest: "public/uploads",
 });
 
-// what do each of these statements do?
 app.use(express.static("public")); // public folder as setting for assets
 app.use(urlEncodedParser); // initialize body parser with app, allows us to use POST requests and send data to server
 
 // initialize template engine
 // use "views" folder
-app.set("view engine", "ejs"); // what folder is required when we use this? make that folder
+app.set("view engine", "ejs"); 
 
-// what is this?
-// GET request for the route of /text
-// route is the location in the url after our ip address
+
 app.get("/", (request, response) => {
   // search that we are using to retrieve data from db
   // if we want everything in the database, we set query to be an empty obj
@@ -55,12 +42,20 @@ app.get("/", (request, response) => {
     timestamp: -1,
   };
 
+  //////////////////////////////////////
+  // this finds all the data in the database
+  // this is unsorted and will return data out of order
+  //////////////////////////////////////
   // database.find(query, (err, data)=>{
   //   // inside of the callback
   //   // rendering the index page with the data from the database
   //   response.render("index.ejs", {posts: data});
   // })
 
+  //////////////////////////////////////
+  // based on how we want to sort the data
+  // render the index for all the data
+  //////////////////////////////////////
   // find(query) = get all the info from database
   // sort(sortQuery) = sort the info that was returned from database 
   // exec = callback function to render the info from the database
@@ -75,7 +70,21 @@ app.get("/", (request, response) => {
 });
 
 // handle the /search route from the form
-app.get("/search", (req, res) => {});
+app.get("/search", (req, res) => {
+  // retrieving the search text from the query
+  let searchTerm = req.query.searchTerm
+
+  let query = {
+    // create a regular expression for the search term
+    // this makes sure that we are finding all matching text within a post
+    text: new RegExp(searchTerm)
+  }
+
+  // use the query to find all the related posts based on the search term
+  database.find(query, (err, searchedData)=>{
+    res.render("index.ejs", { posts: searchedData });
+  })
+});
 
 app.post("/upload", upload.single("theimage"), (req, res) => {
   console.log(req.body);
@@ -94,10 +103,23 @@ app.post("/upload", upload.single("theimage"), (req, res) => {
   });
 });
 
-// what does the number signify?
-// A: port! where we want to access on the ip address
-// how do we access this on the web?
-// include port in url: 127.0.0.1:6001
+// uses the id property from the database to dynamically create pages at the specified route
+app.get("/post/:id", (req, res)=>{
+  // gets the id from the post, which is the id from the database
+  let id = req.params.id
+
+  // using the property name from the database
+  // query for the specific post we are trying to get
+  let query = {
+    _id: id
+  }
+
+  // we use the findOne method because we only want 1 post to be shown
+  database.findOne(query, (err, individualPost)=>{
+    res.render("singlePost.ejs", {post: individualPost})
+  })
+})
+
 app.listen(6001, () => {
   console.log("server started on port 6001");
 });

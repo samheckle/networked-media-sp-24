@@ -1,3 +1,5 @@
+<%- include('nav.ejs') %>
+
 <div class="search-container">
   <form method="GET" action="/search">
     <input
@@ -18,9 +20,11 @@
 
 <div class="all-posts">
   <% posts.forEach( (post) => { %>
-    <div class="post">
+  <div class="post">
+    <a href="/post/<%=post._id%>">
       <span class="date"> <%= post.date %></span>
-      <p class="post-text"> <%= post.text %> </p>
-    </div>
+      <p class="post-text"><%= post.text %></p>
+    </a>
+  </div>
   <% }) %>
 </div>
