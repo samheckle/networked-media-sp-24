@@ -78,7 +78,7 @@ This project consists of 2 small exercises to review technical components like a
 
 ### Deliverables:
 
-Due 3/28: #4.1 Mastodon Bot
+### Due 3/28: #4.1 Mastodon Bot
 Create an account on our class's [Mastodon server](https://networked-media.itp.io/invite/GB28dTiY) and make a bot that runs automatically! What is the interval it posts at? Try bigger times, like once a day or once a week. Think about using an exernal api to produce content.   
 
 You should submit a link that looks something like: https://networked-media.itp.io/@{your-username} to the [spreadsheet](https://docs.google.com/spreadsheets/d/1I4rMb-gg-LCbdFIfDhe7uzGNk5gqZN4I2E5XjWZsquM/edit?usp=sharing).
@@ -89,8 +89,21 @@ You should submit a link that looks something like: https://networked-media.itp.
 * Colin Mitchell, [botsin.space](https://botsin.space/public/local) -- a mastodon server specifically for bots
 
 
-Due 4/4: #4.2
-This assignment is all about getting comfortable with databases. Take the starter code and practice working with databases. You can also incorporate databases into your midterm for this exercise!
+### Due 4/4: #4.2 Database Practice
+This assignment is all about getting comfortable with databases.   
+You have two options for this assignment:
+1) Take this [starter code](../starter-code/project4.2-starter/) and build out the following technical requirements:
+   * replace all html files with ejs templates
+   * render article submissions on home page
+   * an index page (located at `/`) which displays a featured article, as well as a grid of other articles. 
+   * an article submission page (located at `/submit`), which allows users to submit new content to the website. 
+   * each article submission form contains the following fields: `title`, `summary`, `article body`, `is this article featured?`, as well as an `image`. Using your node server and the provided ejs templates, you will need to make sure to use all these fields in deciding how to display the articles on the website’s home page.
+   * individual article pages for each article, located at `/article/article-id`. 
+   * You will need to use route parameters in order to implement this page. Check out the Route parameters section of the [Express routes documentation](https://expressjs.com/en/guide/routing.html)
+   * You will need to incorporate in-memory storage with an `nedb` database.
+   * You can change the css but it is not required.
+
+2) Add a database to your midterm project. Make sure to copy your old code to a new project folder and create a new port & link. 
 
 # Project #5
 ### due 4/30
