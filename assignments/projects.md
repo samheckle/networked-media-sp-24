@@ -103,6 +103,7 @@ You have two options for this assignment:
    * You will need to use route parameters in order to implement this page. Check out the Route parameters section of the [Express routes documentation](https://expressjs.com/en/guide/routing.html)
    * You will need to incorporate in-memory storage with an `nedb` database.
    * You can change the css but it is not required.
+   * It should follow the structure of https://solar.lowtechmagazine.com/
 
 2) Add a database to your midterm project. Make sure to copy your old code to a new project folder and create a new port & link. 
 
