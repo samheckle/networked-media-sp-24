@@ -1,1 +1,2 @@
 {"text":"this has been added to the database","date":"3/26/2024, 5:11:14 PM","_id":"KEZPJaPQtH9zbxxB"}
+{"text":"hi","date":"3/28/2024, 1:59:03 PM","_id":"iReTpkXdSWdahzHV"}

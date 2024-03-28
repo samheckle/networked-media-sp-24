@@ -93,6 +93,7 @@ You should submit a link that looks something like: https://networked-media.itp.
 This assignment is all about getting comfortable with databases.   
 You have two options for this assignment:
 1) Take this [starter code](../starter-code/project4.2-starter/) and build out the following technical requirements:
+   * make this a `Node` project with an `Express` server
    * replace all html files with ejs templates
    * render article submissions on home page
    * an index page (located at `/`) which displays a featured article, as well as a grid of other articles. 
