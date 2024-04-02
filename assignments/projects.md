@@ -96,8 +96,8 @@ You have two options for this assignment:
    * make this a `Node` project with an `Express` server
    * replace all html files with ejs templates
    * render article submissions on home page
-   * an index page (located at `/`) which displays a featured article, as well as a grid of other articles. 
-   * an article submission page (located at `/submit`), which allows users to submit new content to the website. 
+   * an index page (located at `/`) which **displays a featured article** (look at the example website of https://solar.lowtechmagazine.com/), as well as a grid of other articles. 
+   * an article submission page (located at `/submit`), which allows users to submit new content to the website.
    * each article submission form contains the following fields: `title`, `summary`, `article body`, `is this article featured?`, as well as an `image`. Using your node server and the provided ejs templates, you will need to make sure to use all these fields in deciding how to display the articles on the website’s home page.
    * individual article pages for each article, located at `/article/article-id`. 
    * You will need to use route parameters in order to implement this page. Check out the Route parameters section of the [Express routes documentation](https://expressjs.com/en/guide/routing.html)
