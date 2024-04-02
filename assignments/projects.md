@@ -122,8 +122,11 @@ You can work in teams of two if you prefer, as long as you let me know.
 
 ### Deliverables:
 
-4/11: Choose your starting prompt, and come up with a concept for your website. Do your research as well, for both concept and visual style: other websites, pieces of art, zines, posters, books, installations, etc.
+#### Due 4/11: 
+Choose your starting prompt, and come up with a concept for your website. Do your research as well, for both concept and visual style: other websites, pieces of art, zines, posters, books, installations, etc.
     
-4/18: Come up with a design for your website. Use a digital tool or pen and paper to create your **site map** and **wireframes.** Use a digital tool (Figma, Google Slides, Canva, Miro, etc.) to turn your wireframes into higher fidelity visual designs for your site. You should design each page your website will have, in order to fully focus on the implementation over the following weeks.
+#### Due 4/18: 
+Come up with a design for your website. Use a digital tool or pen and paper to create your **site map** and **wireframes.** Use a digital tool (Figma, Google Slides, Canva, Miro, etc.) to turn your wireframes into higher fidelity visual designs for your site. You should design each page your website will have, in order to fully focus on the implementation over the following weeks.
     
-4/30: The project is due, as a website hosted on your Digital Ocean server. We will have our in-class final presentations on *Tuesday April 30th and Thursday May 2*. *Students who presented their midterms during the first session get priority in choosing their preferred date for the final presentation.*
+#### Due 4/30: 
+The project is due, as a website hosted on your Digital Ocean server. We will have our in-class final presentations on *Tuesday April 30th and Thursday May 2*. *Students who presented their midterms during the first session get priority in choosing their preferred date for the final presentation.*
