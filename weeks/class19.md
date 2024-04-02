@@ -9,7 +9,10 @@
 * [class 19 demo](../demos/class19-demo)
 
 ### Reference Materials
-*
+* updated [networks of new york link](https://web.archive.org/web/20230820001709/http://seeingnetworks.in/nyc/)
+* [understanding networks syllabus](https://itp.nyu.edu/classes/undnet/reading/) -- this is if you want to know more about infrastructure of web
+* [nedb - update docs](https://github.com/louischatriot/nedb?tab=readme-ov-file#updating-documents)
+* [nedb - remove docs](https://github.com/louischatriot/nedb?tab=readme-ov-file#removing-documents)
 
 ### Assignment
 

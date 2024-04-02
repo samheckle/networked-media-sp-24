@@ -131,6 +131,9 @@ app.post('/remove', (req, res)=>{
     _id: removedId
   }
 
+  // https://github.com/louischatriot/nedb?tab=readme-ov-file#removing-documents
+  // query = search for which item to update
+  // (err, numRemoved) => callback that populates with error data and how many removed lines
   database.remove(query, (err, numRemoved) =>{
     console.log(`num removed elements ${numRemoved}`)
     res.redirect('/')
@@ -145,10 +148,18 @@ app.post('/like', (req, res)=>{
     _id: postId
   }
 
+  // how documents will update via modifiers
+  // you can find all the modifiers in the documentation here:
+  // https://github.com/louischatriot/nedb?tab=readme-ov-file#updating-documents
   let update = {
     $inc: {likes: 1}
   }
 
+  // https://github.com/louischatriot/nedb?tab=readme-ov-file#updating-documents
+  // query = search for which item to update
+  // update = specifies how the documents will update 
+  // {} = options for how to update (we aren't sending any options)
+  // (err, numUpdated) => callback that populates with error data and how many updated lines
   database.update(query, update, {}, (err, numUpdated)=>{
     console.log(`updated docs: ${numUpdated}`)
     res.redirect('/')

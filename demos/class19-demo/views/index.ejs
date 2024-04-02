@@ -34,7 +34,9 @@
 
     <form method="POST" action="/like">
       <label for="like-post-<%=post._id%>" class="like-label">like <%=post.likes%> </label>
+      
       <input id="like-post-<%=post._id%>" class="like-submit-btn" type="submit" value="like this post">
+
       <input type="hidden" name="postId" value="<%=post._id%>" />
     </form>
   </div>

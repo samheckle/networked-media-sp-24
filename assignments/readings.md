@@ -47,7 +47,7 @@ You can turn in your project by adding a link to it in this [spreadsheet](https:
 ‼️ Discussion Leads:  Nina & Amy  
 * Nicole Starosielski, [The Undersea Network](https://blogs.commons.georgetown.edu/engl-711-fall2017/files/2017/08/The-Undersea-Network_Starosielski.pdf) (excerpt)
 * Ingrid Burrington, [Effortless Slippage](https://www.e-flux.com/architecture/dimensions-of-citizenship/178279/effortless-slippage/)
-* Ingrid Burrington, [Seeing Networks in New York City](http://seeingnetworks.in/nyc/) (website, optional)
+* Ingrid Burrington, [Seeing Networks in New York City](https://web.archive.org/web/20230820001709/http://seeingnetworks.in/nyc/) (website, optional)
 
 # Reading Response #8
 ### due 4/9
