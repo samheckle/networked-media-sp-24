@@ -90,7 +90,7 @@ You should submit a link that looks something like: https://networked-media.itp.
 
 
 ### Due 4/4: #4.2 Database Practice
-This assignment is all about getting comfortable with databases.   
+This assignment is all about getting comfortable with databases. **Submit your link to your live site AND a link to your uploaded code on github or google drive in the submission sheet for full credit**.   
 You have two options for this assignment:
 1) Take this [starter code](../starter-code/project4.2-starter/) and build out the following technical requirements:
    * make this a `Node` project with an `Express` server
