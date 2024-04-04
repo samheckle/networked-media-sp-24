@@ -19,6 +19,7 @@
   <p class="form-label">make a post 👇</p>
   <form method="POST" action="/upload" enctype="multipart/form-data">
     <input type="text" name="text" placeholder="Say something..." />
+    <input type="file" name="theimage">
     <input type="submit" name="submitbutton" value="Submit" />
   </form>
 </div>
@@ -32,9 +33,14 @@
       <p class="post-text"><%= post.text %></p>
     </a>
     <form method="POST" action="/remove">
-      <input type="submit" name="removeButton" value="x" />
+      <label for="post-<%=post._id%>" class="remove-label">+</label>
+      <input id="post-<%=post._id%>" class="remove-button" type="submit" name="removeButton" value="" />
       <input type="hidden" name="postId" value="<%=post._id%>" />
     </form>
+
+    <% if(post.imgSrc){ %>
+      <img class="post-img" src="<%=post.imgSrc%>">
+    <% } %>
 
     <form method="POST" action="/like">
       <label for="like-post-<%=post._id%>" class="like-label">like <%=post.likes%> </label>

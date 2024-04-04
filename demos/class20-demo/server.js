@@ -107,6 +107,11 @@ app.post("/upload", upload.single("theimage"), (req, res) => {
     likes: 0
   };
 
+  if(req.file){
+    // console.log(req.file.filename)
+    data.imgSrc = "/uploads/" + req.file.filename
+  }
+
   database.insert(data, (err, newData) => {
     console.log(newData);
     res.redirect("/");
@@ -153,26 +158,38 @@ app.post('/remove', (req, res)=>{
 app.post('/like', (req, res)=>{
   let postId = req.body.postId
 
-  let query = {
-    _id: postId
-  }
+  console.log(`does post id exist in cookie already? ${req.cookies[postId]}`)
 
-  // how documents will update via modifiers
-  // you can find all the modifiers in the documentation here:
-  // https://github.com/louischatriot/nedb?tab=readme-ov-file#updating-documents
-  let update = {
-    $inc: {likes: 1}
-  }
-
-  // https://github.com/louischatriot/nedb?tab=readme-ov-file#updating-documents
-  // query = search for which item to update
-  // update = specifies how the documents will update 
-  // {} = options for how to update (we aren't sending any options)
-  // (err, numUpdated) => callback that populates with error data and how many updated lines
-  database.update(query, update, {}, (err, numUpdated)=>{
-    console.log(`updated docs: ${numUpdated}`)
+  if(req.cookies[postId] == "postAlreadyLiked"){
     res.redirect('/')
-  })
+  } else{
+
+    // set the cookie that the post has already been liked by this browser session
+    res.cookie(postId, "postAlreadyLiked", {expires: new Date(Date.now() + 100 * 365 * 24 * 60 * 60 * 1000)})
+
+    //////////////////////////////////////
+    // move like post code to else statement
+    let query = {
+      _id: postId
+    }
+  
+    // how documents will update via modifiers
+    // you can find all the modifiers in the documentation here:
+    // https://github.com/louischatriot/nedb?tab=readme-ov-file#updating-documents
+    let update = {
+      $inc: {likes: 1}
+    }
+  
+    // https://github.com/louischatriot/nedb?tab=readme-ov-file#updating-documents
+    // query = search for which item to update
+    // update = specifies how the documents will update 
+    // {} = options for how to update (we aren't sending any options)
+    // (err, numUpdated) => callback that populates with error data and how many updated lines
+    database.update(query, update, {}, (err, numUpdated)=>{
+      console.log(`updated docs: ${numUpdated}`)
+      res.redirect('/')
+    })
+  }
 })
 
 app.listen(6001, () => {
