@@ -29,14 +29,14 @@ week9
 3/26 | Reading Discussion<br>Intro to `nedb` | Project #4.1 due 3/28<br> Reading Response #7 due 4/2
 3/28 | Project #4.1 Review<br>`nedb` continued | Reading Response #7 due 4/2 <br> Project #4.2 due 4/4
 week10
-4/2 | Reading Discussion <br> Intro to Cookies | Project #4.2 due 4/4 <br>Reading Response #8 due 4/9
-4/4 | Project #4.2 Review<br> Cookies Continued | Reading Response #8 due 4/9 <br>Project #5 (Final) Concept due 4/11
+4/2 | Reading Discussion <br> Even more `nedb` | Project #4.2 due 4/4 <br>Reading Response #8 due 4/9
+4/4 | Project #4.2 Review<br> Intro to Cookies | Reading Response #8 due 4/9 <br>Project #5 (Final) Concept due 4/11
 week11
 4/9 | Reading Discussion<br> Intro to Authentication | Reading Response #9 due 4/16
-4/11 | Project #5 (Final) Concept presentations | Reading Response #9 due 4/16<br>Project #5 (Final) Wireframe due 4/18<br>Project #5 (Final) due 4/30
+4/11 | Project #5 (Final) Concept Feedback Session | Reading Response #9 due 4/16<br>Project #5 (Final) Wireframe due 4/18<br>Project #5 (Final) due 4/30
 week12
-4/16 | Reading Discussion |  Reading Response #10 due 4/23<br>Project #5 (Final) due 4/30
-4/18 | Project #5 Wireframe Presentations | Reading Response #10 due 4/23<br>Project #5 (Final) due 4/30
+4/16 | Reading Discussion <br> Incorporating p5.js into your website |  Reading Response #10 due 4/23<br>Project #5 (Final) due 4/30
+4/18 | Project #5 Wireframe Feedback Session | Reading Response #10 due 4/23<br>Project #5 (Final) due 4/30
 week13
 4/23 | Reading Discussion<br> Responsive Design | Project #5 (Final) due 4/30
 4/25 | Browser Animations | Project #5 (Final) due 4/30
