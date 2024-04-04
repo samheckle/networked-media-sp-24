@@ -39,7 +39,7 @@ week12
 4/18 | Project #5 Wireframe Feedback Session | Reading Response #10 due 4/23<br>Project #5 (Final) due 4/30
 week13
 4/23 | Reading Discussion<br> Responsive Design | Project #5 (Final) due 4/30
-4/25 | Browser Animations | Project #5 (Final) due 4/30
+4/25 | Open Interest Session<br> Browser Animations | Project #5 (Final) due 4/30
 week14 - Finals
 4/30 | Project #5 Crit | 
 5/2 | Project #5 Crit | 
