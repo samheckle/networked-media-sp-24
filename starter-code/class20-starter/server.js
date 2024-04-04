@@ -25,7 +25,8 @@ const upload = multer({
 app.use(express.static("public")); // public folder as setting for assets
 app.use(urlEncodedParser); // initialize body parser with app, allows us to use POST requests and send data to server
 
-// initialize template engine using "views" folder
+// initialize template engine
+// use "views" folder
 app.set("view engine", "ejs"); 
 
 
@@ -35,9 +36,21 @@ app.get("/", (request, response) => {
   let query = {};
 
   // sorting query to make the posts show up in reverse chronological order
+  // -1 will be reverse (most recent on top)
+  // 1 will be in order (oldest on top)
   let sortQuery = {
     timestamp: -1,
   };
+
+  //////////////////////////////////////
+  // this finds all the data in the database
+  // this is unsorted and will return data out of order
+  //////////////////////////////////////
+  // database.find(query, (err, data)=>{
+  //   // inside of the callback
+  //   // rendering the index page with the data from the database
+  //   response.render("index.ejs", {posts: data});
+  // })
 
   //////////////////////////////////////
   // based on how we want to sort the data
@@ -50,6 +63,7 @@ app.get("/", (request, response) => {
     .find(query)
     .sort(sortQuery)
     .exec((err, data) => {
+      // inside of the callback
       // rendering the index page with the data from the database
       response.render("index.ejs", { posts: data });
     });
@@ -140,6 +154,8 @@ app.post('/like', (req, res)=>{
   let update = {
     $inc: {likes: 1}
   }
+
+  // https://github.com/louischatriot/nedb?tab=readme-ov-file#updating-documents
   // query = search for which item to update
   // update = specifies how the documents will update 
   // {} = options for how to update (we aren't sending any options)
