@@ -1,0 +1,48 @@
+<div class="visits-counter"> 
+  you have visited this site <%= visitsToSite %> times!
+</div>
+
+<%- include('nav.ejs') %>
+
+<div class="search-container">
+  <form method="GET" action="/search">
+    <input
+      type="text"
+      class="search-bar"
+      name="searchTerm"
+      placeholder="Search..."
+    />
+  </form>
+</div>
+
+<div class="form-container">
+  <p class="form-label">make a post 👇</p>
+  <form method="POST" action="/upload" enctype="multipart/form-data">
+    <input type="text" name="text" placeholder="Say something..." />
+    <input type="submit" name="submitbutton" value="Submit" />
+  </form>
+</div>
+
+<div class="all-posts">
+  <% posts.forEach( (post) => { %>
+
+  <div class="post">
+    <a href="/post/<%=post._id%>">
+      <span class="date"> <%= post.date %></span>
+      <p class="post-text"><%= post.text %></p>
+    </a>
+    <form method="POST" action="/remove">
+      <input type="submit" name="removeButton" value="x" />
+      <input type="hidden" name="postId" value="<%=post._id%>" />
+    </form>
+
+    <form method="POST" action="/like">
+      <label for="like-post-<%=post._id%>" class="like-label">like <%=post.likes%> </label>
+      
+      <input id="like-post-<%=post._id%>" class="like-submit-btn" type="submit" value="like this post">
+
+      <input type="hidden" name="postId" value="<%=post._id%>" />
+    </form>
+  </div>
+  <% }) %>
+</div>
