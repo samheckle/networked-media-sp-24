@@ -151,5 +151,5 @@ app.post('/like', (req, res)=>{
 })
 
 app.listen(6001, () => {
-  console.log("server started on port 6001");
+  console.log("http://localhost:6001");
 });

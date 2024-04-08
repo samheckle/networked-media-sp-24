@@ -4,7 +4,7 @@
 * Intro to cookies
 
 ### Class Materials
-* [database notes](../notes/cookies.md)
+* [cookie notes](../notes/cookies.md)
 * [class 20 slides](https://docs.google.com/presentation/d/15Y9RX6RpAiOh5FbDrRUm9HsdGRwGNEDju25-yD3q2v8/edit?usp=sharing)
 * [class 20 starter](../starter-code/class20-starter)
 * [class 20 demo](../demos/class20-demo)
