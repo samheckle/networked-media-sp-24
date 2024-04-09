@@ -1,0 +1,2 @@
+{"_id":"BguL6g3VJ5fM6YwNoV7AcdLYeCW-Petn","session":{"cookie":{"path":"/","_expires":{"$$date":1744229419958},"originalMaxAge":31536000000,"httpOnly":true}},"expiresAt":{"$$date":1744229419958},"createdAt":{"$$date":1712693419960},"updatedAt":{"$$date":1712693419960}}
+{"_id":"M_-aLy2F8f-e0J6JeyMumXXcBESJbpGs","session":{"cookie":{"originalMaxAge":31535999999,"expires":{"$$date":1744231570131},"httpOnly":true,"path":"/"},"loggedInUser":"sam"},"expiresAt":{"$$date":1744231570131},"createdAt":{"$$date":1712692979226},"updatedAt":{"$$date":1712695570132}}
