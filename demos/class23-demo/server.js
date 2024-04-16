@@ -297,6 +297,11 @@ app.get("/logout", (req, res) => {
   res.redirect("/login");
 });
 
+//////////////////////////
+app.get('/p5', (req, res)=>{
+  res.render('p5.ejs', {})
+})
+
 // start server
 const port = 6001;
 app.listen(port, () => {

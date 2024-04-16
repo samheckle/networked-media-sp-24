@@ -6,9 +6,12 @@
 
 ### Class Materials
 * [class 23 slides](https://docs.google.com/presentation/d/1kPhqlIPROsy6yc0SH_4c4fxSZ4wdZVKh4pwwKHY9vyc/edit?usp=sharing)
+* [class 23 demo](https://github.com/samheckle/networked-media-sp-24/tree/main/demos/class23-demo)
 
 ### Reference Materials
-* 
+* [update documentation for nedb](https://github.com/louischatriot/nedb?tab=readme-ov-file#updating-documents)
+* [types of display](https://www.w3schools.com/cssref/pr_class_display.php)
+* [p5 instance mode](https://github.com/processing/p5.js/wiki/Global-and-instance-mode)
 
 ### Assignment
 
