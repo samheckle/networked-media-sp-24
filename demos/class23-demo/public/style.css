@@ -1,0 +1,88 @@
+body{
+    /* ensuring body element fills entire window of screen */
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: #F1ECCE;
+
+    /* centering all the elements on the page */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* setting width of all content containers to be the same */
+.search-container, .form-container, .all-posts, .nav{
+    width: 66%;
+}
+
+.nav{
+    /* adding border to nav bar */
+    border: solid hotpink 2px;
+    /* center the links */
+    text-align: center;
+    /* adjusting the spacing of the link and the border */
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: lightpink;
+    /* /////////////////// */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* grabbing all a tags inside of the nav bar */
+.nav a{
+    margin: 10px;
+    /* /////////////////// */
+    display: inline-block;
+}
+
+.search-container form{
+    display: flex;
+    flex-direction: column;
+}
+.form-container form{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.form-container input[type='text']{
+    flex-grow: 3;
+}
+.form-container input[type='submit']{
+    flex-grow: 1;
+}
+
+.post{
+    width: 100%;
+    border: 1px hotpink solid;
+    /* shorthand for margin-top and margin-bottom */
+    margin: 2px 0px;
+    padding: 5px;
+    position: relative;
+}
+
+.post a{
+    text-decoration: none;
+    color: black;
+}
+
+.post-img {
+    width: 100%;
+}
+
+.remove-button{
+    display: none;
+}
+
+.remove-label{
+    transform: rotate(45deg);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}

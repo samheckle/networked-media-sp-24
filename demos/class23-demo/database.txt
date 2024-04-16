@@ -1,0 +1,5 @@
+{"text":"","date":"4/4/2024, 5:08:14 PM","timestamp":1712264894253,"likes":2,"imgSrc":"/uploads/7872adac83a3fb4e038a0f1d04feb80b","_id":"2aEfNQP2BgdRtgNe"}
+{"text":"this is a new post!!!!!","date":"4/16/2024, 4:22:54 PM","timestamp":1713298974391,"likes":0,"comments":["hi"],"_id":"42RskHmDl2i3cK9W"}
+{"text":"this is a post that i can only like 1 time!!!!!!","date":"4/4/2024, 4:46:24 PM","timestamp":1712263584702,"likes":1,"_id":"Ir8LTp2cCmUaKfKZ"}
+{"text":"new new new","date":"4/16/2024, 4:26:01 PM","timestamp":1713299161887,"likes":0,"comments":[],"_id":"bTWdQk6S6pbg0CfS"}
+{"text":"new new new","date":"4/16/2024, 4:26:01 PM","timestamp":1713299161887,"likes":0,"comments":[{"text":"hi","user":"sam"}],"_id":"bTWdQk6S6pbg0CfS"}

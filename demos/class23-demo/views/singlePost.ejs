@@ -1,0 +1,31 @@
+<head>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+
+<%- include('nav.ejs') %>
+
+<div class="post">
+  <span class="date"> <%= post.date %></span>
+  <p class="post-text"><%= post.text %></p>
+
+  <!-- form to add a comment -->
+  <form method="POST" action="/comment" class="comment-form">
+    <input
+      type="text"
+      class="comment-input"
+      name="comment"
+      placeholder="add a comment..."
+    />
+    <input type="hidden" name="postId" value="<%= post._id%>" />
+  </form>
+
+  <!-- viewing all the comments on an indiv post -->
+  <div class="comments-container">
+    <% post.comments.forEach( (comment) =>{ %>
+
+    <span class="date"> <%= comment.user %> </span>
+
+    <div class="comment"><%= comment.text %></div>
+    <% }) %>
+  </div>
+</div>
