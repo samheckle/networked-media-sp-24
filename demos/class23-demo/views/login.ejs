@@ -3,6 +3,12 @@
 <body>
     <div class="form-container">
         <h1>login</h1>
+
+        <% if (error == "access") { %>
+            <h3 class="error"> Error: You need to login to view posts.</h3>
+        <% } else if(error == "password" || error == "user"){ %>
+            <h3 class="error"> Error: Wrong user or password. </h3>
+        <% } %>
         <form method="POST" action="/authenticate">
             <input type="text" name="username" placeholder="username">
             <input type="password" name="password" placeholder="password">

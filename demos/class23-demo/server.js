@@ -59,7 +59,7 @@ function requiresAuthentication(req, res, next) {
     // goes to the route that the middleware is blocking
     next();
   } else {
-    res.redirect("/login?error=true");
+    res.redirect("/login?error=access");
   }
 }
 /////////////////////////////////////
@@ -226,9 +226,9 @@ app.post('/comment', requiresAuthentication, (req, res)=>{
 app.get("/login", (req, res) => {
   // console.log(req.query.error)
   if (req.query.error) {
-    res.render("login.ejs", {error: true} );
+    res.render("login.ejs", {error: req.query.error} );
   } else {
-    res.render("login.ejs", {});
+    res.render("login.ejs", {error: false});
   }
 });
 
@@ -271,7 +271,7 @@ app.post("/authenticate", (req, res) => {
   userdatabase.findOne(searchQuery, (err, user) => {
     console.log("login attempted");
     if (err || user == null) {
-      res.redirect("/login");
+      res.redirect('/login?error=user')
     } else {
       console.log("found user");
 
@@ -286,7 +286,7 @@ app.post("/authenticate", (req, res) => {
         console.log("successful login");
         res.redirect("/");
       } else {
-        res.redirect("/login");
+        res.redirect("/login?error=password");
       }
     }
   });
