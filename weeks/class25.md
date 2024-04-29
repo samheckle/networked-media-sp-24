@@ -13,7 +13,9 @@
 ```
 
 ### Reference Materials
-* 
+* [moz doc media query](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries)
+* [moz doc orientation](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/orientation)
+* [moz doc object fit](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
 
 ### Assignment
 
