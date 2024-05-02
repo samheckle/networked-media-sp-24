@@ -1,0 +1,54 @@
+@media only screen and (min-width: 300px){
+    html{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    .content{
+        max-width: 90%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        margin: auto;
+    }
+    .content img{
+        height: 200px;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    html, body{
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 900px){
+    .content{
+        flex-direction: row;
+        max-width: 900px;
+        align-items: center;
+        height: 100%;
+    }
+    .content img{
+        height: 400px;
+        width: 400px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .content{
+        max-width: 1200px;
+    }
+    .content img{
+        height: 300px;
+        width: 300px;
+    }
+}
